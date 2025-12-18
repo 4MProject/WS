@@ -4,15 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://4MProject.github.io/WS",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d build",
+    "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build"
-},
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",
