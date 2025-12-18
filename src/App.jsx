@@ -8,6 +8,8 @@ import {
   FaExclamationTriangle, FaUsers, FaInfinity, FaLanguage,
   FaMoneyBillWave, FaTachometerAlt, FaPuzzlePiece, FaRocket
 } from 'react-icons/fa';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 const App = () => {
   const [currentSlide, setCurrentSlide] = useState(1);

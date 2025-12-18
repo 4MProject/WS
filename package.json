@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://4MProject.github.io/WS",
    "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -36,5 +35,6 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  }
+  },
+  "homepage": "https://4MProject.github.io/WS"
 }
